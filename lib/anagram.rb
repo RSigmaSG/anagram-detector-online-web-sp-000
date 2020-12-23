@@ -6,5 +6,6 @@ class Anagram
   def initialize(letters)
     
     
+  end
   
 end
