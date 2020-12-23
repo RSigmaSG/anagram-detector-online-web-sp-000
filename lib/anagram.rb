@@ -5,6 +5,13 @@ class Anagram
   
   def initialize(letters)
     
+    @letters = letters
+    
+  end
+  
+  def match(words_arr)
+    
+    words_arr.collect
     
   end
   
