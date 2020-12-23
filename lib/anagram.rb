@@ -15,7 +15,7 @@ class Anagram
     
     words_arr.each do |word|
       
-      if (word.split("").sort! = @letters.split("").sort!)
+      if (word.split("").sort == @letters.split("").sort)
         anagrams.push(word)
       end
 
