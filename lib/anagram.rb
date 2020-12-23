@@ -11,7 +11,16 @@ class Anagram
   
   def match(words_arr)
     
-    words_arr.collect
+    anagrams = []
+    
+    words_arr.each do |word|
+      
+      if (word.split("").sort = @letters.split("").sort)
+        anagrams.push(word)
+      end
+
+      
+    end
     
   end
   
